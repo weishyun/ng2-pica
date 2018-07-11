@@ -1,6 +1,5 @@
 import { Injectable, Inject, forwardRef } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
-import { Subject } from 'rxjs/Subject';
+import { Observable, Subject } from 'rxjs';
 import pica from 'pica/dist/pica';
 
 declare var window;
